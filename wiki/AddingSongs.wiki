@@ -19,6 +19,7 @@ Same counts for the Songs directory:
 # mkdir /var/mobile/Documents/Songs
 
 Use SSH to copy your songs to the iPhone. Please note that TapMania doesn't use Groups for Songs so you will need to copy songs from different packs directly to Songs directory. However this may change someday.
+
 To copy files over the WiFi network use scp (on *nix) from your desktop:
 # scp -r /path/to/local/stepmania/Songs/Pack1/Song1 mobile@iphoneip:/var/mobile/Documents/Songs/
 
