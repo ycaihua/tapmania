@@ -1,0 +1,29 @@
+#summary Adding songs to TapMania
+#labels Featured,Phase-Deploy
+
+= Introduction =
+
+Provided that TapMania is a simulator of StepMania one can use the same songs to play.
+Please note that currently only DWI format is supported by TapMania. However that seems to be about 70% of all songs available from the keyboard packs and almost everything you can get from DDR packs.
+
+= Details =
+
+First of all: Your iPhone must be jailbreaked to use this software.
+
+TapMania will search for songs in the *Songs* directory which is found in the *Documents* directory on your iPhone. The full path is usually: */var/mobile/Documents/Songs/*.
+
+If you don't have the Documents directory - create it:
+# mkdir /var/mobile/Documents
+
+Same counts for the Songs directory:
+# mkdir /var/mobile/Documents/Songs
+
+Use SSH to copy your songs to the iPhone. Please note that TapMania doesn't use Groups for Songs so you will need to copy songs from different packs directly to Songs directory. However this may change someday.
+To copy files over the WiFi network use scp (on *nix) from your desktop:
+# scp -r /path/to/local/stepmania/Songs/Pack1/Song1 mobile@iphoneip:/var/mobile/Documents/Songs/
+
+*Tip:* you can make a tarbal of your pack and copy the tarbal to the iPhone at once. Extract your pack to the Songs folder and you will have all your songs directly.
+
+Upon next startup, TapMania will cache your Songs directory and all compatible songs (currently DWI format only) will be available in the *Play* menu.
+
+Have fun :-)
