@@ -1,0 +1,3 @@
+#summary The great DDR/ITG etc. simulator for the PC.
+
+See http://stepmania.com for more information.
