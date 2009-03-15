@@ -6,6 +6,8 @@
 Provided that TapMania is a simulator of StepMania one can use the same songs to play.
 Please note that currently only DWI format is supported by TapMania. However that seems to be about 70% of all songs available from the keyboard packs and almost everything you can get from DDR packs.
 
+You can take a look at this great video HOWTO from iAuzy to get the full idea of adding songs using windows: *http://www.youtube.com/watch?v=wW3gZ9_w0qI*
+
 = Details =
 
 First of all: Your iPhone must be jailbreaked to use this software.
