@@ -27,4 +27,11 @@ To copy files over the WiFi network use scp (on *nix) from your desktop:
 
 Upon next startup, TapMania will cache your Songs directory and all compatible songs (currently DWI format only) will be available in the *Play* menu.
 
+= Why my song is not working?! =
+Possible issues:
+
+1) It's not in .DWI format? Maybe you have copied a song in .SM format or something?
+2) It's not .mp3? Some songs are in .ogg format which is CURRENTLY not supported by tapmania.
+3) If you have uploaded your song but you still get 10 seconds timeout with error you most likely uploaded to a wrong directory.
+
 Have fun :-)
