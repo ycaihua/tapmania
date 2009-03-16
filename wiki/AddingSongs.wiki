@@ -35,5 +35,6 @@ Possible issues:
 1) It's not in .DWI format? Maybe you have copied a song in .SM format or something?
 2) It's not .mp3? Some songs are in .ogg format which is CURRENTLY not supported by tapmania.
 3) If you have uploaded your song but you still get 10 seconds timeout with error you most likely uploaded to a wrong directory.
+4) What people somehow often do is.. they drop the .dwi and the .mp3 inside Songs instead of Songs/songdir/ and that causes tapmania to crash etc. Please don't do such things :P
 
 Have fun :-)
