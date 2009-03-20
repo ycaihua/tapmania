@@ -1,0 +1,28 @@
+#summary Howto create custom themes and noteskins
+#labels Featured
+
+= Abstract = 
+TapMania supports themes and noteskins at the engine level.
+Well, you can't pick one in options at the moment but you definitely can hack around with the default theme.
+This page describes exactly how one can do that.
+
+= Themes =
+Themes are located in the '/Applications/TapMania.app/themes/' directory.
+Currently you can hack around with the default theme which is located in '...themes/default/'. 
+
+The layout of that directory is close to the one used by stepmania. But most important is the *Metrics.plist* file. You can hack it to assign different positions to UI elements in the game.
+
+Ok. There are also a couple of directories there:
+- Fonts -- This is not used atm since we use system fonts.
+- Sounds -- This is not used atm.. just because I didn't code the engine for that.
+- Graphics -- This is used intensively!
+
+As you can understand already.. you are interested in the Graphics folder.
+That folder contains images. You must never change filenames here.
+
+= Noteskins =
+Noteskins are located in the '/Applications/TapMania.app/noteskins/' directory.
+Noteskins can be hacked in the same way as themes can. You are limited to the default noteskin atm. 
+The noteskins system is pretty straightforward at the current state so no need to talk about it.
+
+Happy hacking :)
