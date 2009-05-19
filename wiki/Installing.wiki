@@ -9,6 +9,8 @@ This page describes the currently available ways of TapMania deployment.
 
 *Currently the ready to use build is available through Cydia*. That's the normal way to install TapMania.
 
+Note that there are noteskins/themes available! You can install them through Cydia.. they are located in the *App addons* category!
+
 However you can always grab the latest version from svn.
 You can checkout the sources using svn as described in the *Source* tab of the project page. You will need to compile the sources manually and deploy the application by hand. I would not suggest to try this unless you are feeling strong in this area.
 
