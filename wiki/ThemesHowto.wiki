@@ -8,17 +8,19 @@ This page describes exactly how one can do that.
 
 = Themes =
 Themes are located in the '/Applications/TapMania.app/themes/' directory.
-Currently you can hack around with the default theme which is located in '...themes/default/'. 
+You can create custom themes since 0.1.4 release. Don't mess with the default theme please :P
 
 The layout of that directory is close to the one used by stepmania. But most important is the *Metrics.plist* file. You can hack it to assign different positions to UI elements in the game.
 
 Ok. There are also a couple of directories there:
-- Fonts -- This is not used atm since we use system fonts.
+- Fonts -- This is not used atm since we use system fonts. You can notice some files in there.. they are not used atm.
 - Sounds -- This is not used atm.. just because I didn't code the engine for that.
 - Graphics -- This is used intensively!
 
-As you can understand already.. you are interested in the Graphics folder.
-That folder contains images. You must never change filenames here.
+As you could understand already.. your interest is in the Graphics folder.
+That folder contains images. You must never change filenames here. 
+Also notice the .redir files. You can put a .png file with an graphic instead of that file. Just be sure to keep the name (e.g. Graphic.redir becomes Graphic.png).
+Using .redir files is pretty simple.. it's just a redirect which means that the image with the name before the .redir extension will be available as a copy of the image specified in the .redir file. (e.g. fubar.redir contains: "../fu/bar/another.png". This will make fubar available as a copy of another.png image).
 
 = Noteskins =
 Noteskins are located in the '/Applications/TapMania.app/noteskins/' directory.
