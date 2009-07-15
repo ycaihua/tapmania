@@ -10,7 +10,7 @@ You can take a look at *this great video HOWTO from iAuzy* to get the full idea 
 
 = Details =
 
-First of all: Your iPhone must be jailbreaked to use this software.
+First of all: Your iPhone must be jailbroken to use this software.
 
 TapMania will search for songs in the *Songs* directory which is found in the *Documents* directory on your iPhone. The full path is usually: */var/mobile/Documents/Songs/*.
 
@@ -29,12 +29,12 @@ To copy files over the WiFi network use scp (on *nix) from your desktop:
 
 *Tip:* you can make a tarbal of your pack and copy the tarbal to the iPhone at once. Extract your pack to the Songs folder and you will have all your songs directly.
 
-Upon next startup, TapMania will cache your Songs directory and all compatible songs (currently DWI format only) will be available in the *Play* menu.
+Upon next startup, TapMania will cache your Songs directory and all compatible songs (currently DWI and SM) will be available in the *Play* menu.
 
 = Why my song is not working?! =
 Possible issues:
 
-1) It's not in .DWI format? Maybe you have copied a song in .SM format or something?
+1) It's not in .DWI or .SM format?
 2) It's not .mp3? Some songs are in .ogg format which is CURRENTLY not supported by tapmania.
 3) If you have uploaded your song but you still get 10 seconds timeout with error you most likely uploaded to a wrong directory.
 4) What people somehow often do is.. they drop the .dwi and the .mp3 inside Songs instead of Songs/songdir/ and that causes tapmania to crash etc. Please don't do such things :P
