@@ -7,27 +7,4 @@ This page describes the currently available ways of TapMania deployment.
 
 = Details =
 
-*Currently the ready to use build is available through Cydia*. That's the normal way to install TapMania.
-
-Note that there are noteskins/themes available! You can install them through Cydia.. they are located in the *App addons* category!
-
-However you can always grab the latest version from svn.
-You can checkout the sources using svn as described in the *Source* tab of the project page. You will need to compile the sources manually and deploy the application by hand. I would not suggest to try this unless you are feeling strong in this area.
-
-= Compiling TapMania =
-
-Most of the time TapMania is compatible with both Xcode/Official SDK and the 2.x toolchain under linux (Thank you, Saurik!).
-
-To compile under the official SDK, just use Xcode as usual. Xcode project is available in the root of TapMania's sources tree. Note that you will need to use the *Device/Release* settings to compile for real hardware.
-
-Compilation under the toolchain/linux is done using the *make* command as usual.
-
-= Deployment =
-
-The resulting tm.tar (under linux/toolchain) must be extracted to */Applications/* on the iPhone.
-
-Under the official SDK you will get a *build* directory and there the *Release-iphoneos/TapMania.app* directory which can be copied to */Applications/* on the iPhone.
-
-In both cases you need to do *# ldid -S /Applications/TapMania.app/TapMania* on your iPhone in order to use TapMania. If you don't - the application will fail to launch.
-
-Have fun :-)
+Currently TapMania is released on the AppStore.
