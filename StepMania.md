@@ -1,0 +1,1 @@
+See http://stepmania.com for more information.
